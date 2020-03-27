@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Source/*.swift'
+
+  s.swift_versions = ['5.0', '5.1']
 end
